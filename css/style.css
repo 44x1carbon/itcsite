@@ -54,6 +54,8 @@ header {
   font-size: 52px;
   color: #ffffff;
   position: absolute;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 50px;
   margin-left: 50px;
   top: 0;
