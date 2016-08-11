@@ -13,7 +13,7 @@ header {
   z-index: 1;
   background-color: #0068B6;
   margin: 0 40px;
-  height: 100px;
+  height: 98px;
   width: calc(100% - 80px);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 2px 2px 0 rgba(0,0,0,0.12);
 }
