@@ -167,7 +167,7 @@ section h3, section small{
   overflow: scroll;
 }
 .member {
-  width: 30%;
+  width: 240px;
   margin-left: 2.5%;
   margin-bottom: 20px;
   /*float: left;*/
