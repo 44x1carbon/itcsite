@@ -1,0 +1,101 @@
+body {
+  background-color: #3671C4;
+  background-color: #285294;
+  color: white;
+  min-width: 820px;
+  padding-top: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  min-width: 820px;
+  width: 1100px;
+  box-sizing: border-box;
+  margin: 0px auto;;
+  margin-bottom: 40px;
+}
+
+#main-menu > ul{
+  /*color: #f0f0f0;*/
+  font-size: 24px;
+  border: solid 1px;
+  /*opacity: 0.9;*/
+  margin: 0;
+}
+
+#main-menu .brand{
+  border-right: solid 1px;
+}
+
+#main-menu > ul:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#main-menu li {
+  float: left;
+  padding: 20px 40px;
+}
+
+main {
+  width: 1100px;
+  margin: 0px auto;
+}
+
+main  h1{
+  border: solid 1px;
+  padding: 5px 10px;
+}
+
+#header-img {
+  min-width: 820px;
+  background-color: #4286ED;
+  background-image: url('../img/header-img/IMG_9564_gray.JPG');
+  background-size: cover;
+  padding: 20px;
+}
+
+#header-img > p {
+  font-size: 92px;
+  margin: 0;
+}
+
+.activity-content, .activity-content *{
+  background-color: transparent;
+}
+
+.activity-content {
+  /*border: solid 1px;*/
+}
+
+.activity-content .panel-body, .activity-content .panel-footer, .activity-content .panel-heading{
+  padding: 0;
+}
+
+.activity-content .panel-footer{
+  padding: 10px 0;
+  border: none;
+}
+
+.activity-content img{
+  width: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer{
+  background-color: #183157;
+  height: 200px;
+}
