@@ -1,0 +1,51 @@
+.card {
+  width: 30%;
+  margin-left: 2.5%;
+  margin-bottom: 20px;
+  float: left;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.16),0 4px 10px 0 rgba(0,0,0,0.12);
+}
+.card .img{
+  position: relative;
+}
+
+.card .img img{
+  width: 100%;
+}
+
+.card-title {
+  color: #ffffff;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+}
+.card .body {
+  padding: 10px;
+  height: 120px;
+  white-space: normal;
+  overflow: hidden;
+  color: #666B6C;
+}
+
+.card .body p {
+  word-break:break-all;
+  width: 100%;
+  margin: 0;
+}
+
+.card .footer {
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+}

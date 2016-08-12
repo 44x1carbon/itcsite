@@ -8,7 +8,9 @@
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./css/style.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/activity.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/product.css" media="screen" title="no title" charset="utf-8">
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="screen" title="no title" charset="utf-8"> -->
   </head>
   <body>
     <header>
@@ -18,27 +20,28 @@
         </div>
         <nav>
           <a href="#news">News</a>
+          <a href="#activity">Activity</a>
           <a href="#about">About</a>
           <a href="#product">Product</a>
-          <a href="#member">Member</a>
+        <!--   <a href="#member">Member</a> -->
         </nav>
       </div>
       <div id="header-img">
-        <img src="./img/header-img/IMG_9564_gray.JPG" alt="" />
+        <img src="./img/header-img/IMG_9561_gray.JPG" alt="" />
         <p>
-          つくりたいものを<br>
-          作りたいときに<br>
-          造りたいだけ<br>
-          創る
+          <b>つく</b>りたいものを<br>
+          <b>作</b>りたいときに<br>
+          <b>造</b>りたいだけ<br>
+          <b>創</b>る
         </p>
       </div>
     </header>
     <main>
       <section id="news">
-        <h3>
+        <h1>
           News<br>
           <small>新着情報</small>
-        </h3>
+        </h1>
         <div id="news-content">
           <ul>
             <li>
@@ -78,17 +81,49 @@
         </div>
       </section>
       <section id="about">
-        <h3>
+        <h1>
           About<br>
           <small>ITCreate部とは</small>
-        </h3>
+        </h1>
+        <div>
+          <p>
+            親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+          </p>
+        </div>
+      </section>
+      <section id="activity">
+        <h1>
+          Activity<br>
+          <small>活動内容</small>
+        </h1>
+        <div id="activity-list">
+          <div class="activity">
+            <a href="#" class="images" style="background-image:url('./img/IMG_9561_gray.JPG')">
+            </a>
+            <div class="content">
+              <h2>学内勉強会</h2>
+              <p>
+                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+              </p>
+            </div>
+          </div>
+          <div class="activity">
+            <a href="#" class="images" style="background-image:url('./img/IMG_9561_gray.JPG')"></a>
+            <div class="content">
+              <h2>学内勉強会</h2>
+              <p>
+                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="product">
-        <h3>
+        <h1>
           Product<br>
           <small>作品</small>
-        </h3>
-        <div id="product-list" class="horizontal">
+        </h1>
+        <div id="product-list" class="clearfix">
           <div class="product card">
             <div class="img">
               <img src="http://placekitten.com/240/180" alt="" />
@@ -172,11 +207,11 @@
         </div>
         <div class="scroll-more">Scroll more...</div>
       </section>
-      <section id="member">
-        <h3>
+      <!-- <section id="member">
+        <h1>
           Member<br>
           <small>メンバー一覧</small>
-        </h3>
+        </h1>
         <div id="member-list" class="horizontal">
           <div class="member">
             <img src="http://placekitten.com/240/180" alt="" />
@@ -240,7 +275,7 @@
           </div>
         </div>
         <div class="scroll-more">Scroll more...</div>
-      </section>
+      </section> -->
     </main>
   </body>
 </html>
